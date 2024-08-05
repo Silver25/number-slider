@@ -1,0 +1,36 @@
+/* Asterisk wildcard selector [replaces all selectors] to override the browser defaults */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* General styles for web page */
+body {
+    xxx
+}
+
+/* ----- Header of the page ----- */
+header {
+    xxx
+}
+
+/* ----- Main content section on the page ----- */
+.container {
+    width: 75%;   /* Relative values to avoid using media queries for responsivnes */
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+.tile {
+    flex: 1 0 33.33%;   /* Equal width tiles */
+    height: 100px;   /* Height as needed related to content of the tiles */
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+  }
+
+/* ----- Footer of the page ----- */
+footer {
+    xxx
+}
