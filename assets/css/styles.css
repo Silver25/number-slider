@@ -17,17 +17,74 @@ header {
 
 /* ----- Main content section on the page ----- */
 .container {
-    width: 75%;   /* Relative values to avoid using media queries for responsivnes */
-    display: flex;
-    flex-wrap: wrap;
+    margin: 50px;
+    position: relative;
+    height: 300px;
+    width: 300px;
+    margin: 15px auto;
   }
   
 .tile {
-    flex: 1 0 33.33%;   /* Equal width tiles */
-    height: 100px;   /* Height as needed related to content of the tiles */
-    background-color: #f0f0f0;
-    border: 1px solid #ddd;
+    height: 100px;
+    width: 100px;
+    color: white;
+    border: 1px solid white;
+    background: #000;
+    position: absolute;
     box-sizing: border-box;
+    font-size: 100%;
+    display: flex;
+    z-index: 2;
+  }
+
+  .blank {
+    background: white;
+    z-index: 1;
+  }
+  
+  [data-pos="0"] {
+    left: 0;
+    top: 0;
+  }
+  
+  [data-pos="1"] {
+    left: 100px;
+    top: 0;
+  }
+  
+  [data-pos="2"] {
+    left: 200px;
+    top: 0;
+  }
+  
+  [data-pos="3"] {
+    left: 0;
+    top: 100px;
+  }
+  
+  [data-pos="4"] {
+    left: 100px;
+    top: 100px;
+  }
+  
+  [data-pos="5"] {
+    left: 200px;
+    top: 100px;
+  }
+  
+  [data-pos="6"] {
+    left: 0;
+    top: 200px;
+  }
+  
+  [data-pos="7"] {
+    left: 100px;
+    top: 200px;
+  }
+  
+  [data-pos="8"] {
+    left: 200px;
+    top: 200px;
   }
 
 /* ----- Footer of the page ----- */
