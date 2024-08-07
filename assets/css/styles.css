@@ -16,13 +16,22 @@ header {
 }
 
 /* ----- Main content section on the page ----- */
-.container {
-    margin: 50px;
-    position: relative;
-    height: 300px;
-    width: 300px;
-    margin: 15px auto;
-  }
+#container {
+	margin: 50px;
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 15px auto;
+}
+
+#counter-box {
+	position: relative;
+	height: 100px;
+	width: 300px;
+	margin: 15px auto;
+    font-size: 24px;
+    color: #000;  /*#209CEE*/
+}
   
 .tile {
     height: 100px;
