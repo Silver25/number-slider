@@ -56,7 +56,7 @@ The interactivity of the Number Slider Puzzle lies in its engaging and hands-on 
 
 ## Colours
 
-
+Use the basic two colours to achieve simplicity of design and good contrast for accessibility.
 
 ## Testing
 
@@ -73,7 +73,19 @@ Browsers used for cross-browser compatibility and responsiveness:
 Devices used for testing purposes:
 - desktop devices with Windows 10 and 11 OS were used, from 11" to 15" screen size
 - tablet devices were unavailable, option with browser Dev Tools applied
-- mobile devices were Nokia X10 and Samsung Galaxy A10
+- mobile devices were Nokia X10 and Samsung Galaxy A10  
+
+| Functionality | Expectation | Grade |
+|--------------|-------------------------|------|
+| visual style | how it looks in browser | pass |
+| logo text | link to landing page | pass |
+| linked text | accurate text links | pass |
+| position | where elements are positioned | pass|
+| reaction | will particular elements react as expected | pass |
+| functionality | are functions working | pass |
+| footer | are elements visible | pass |
+| footer | are elements functional | pass |
+
 
 ### Validator Testing
 
@@ -92,6 +104,8 @@ PageSpeed Insights (PSI): https://pagespeed.web.dev/
 ![PageSpeed](assets/documentation/pagespeed-desktop.webp)  
 
 Lighthouse in Chrome DevTools  
+Lighthouse is an open-source, automated Audit tool for improving the quality of web pages.  
+Lighthouse is integrated directly into the Chrome DevTools, under the "Lighthouse" panel.  
 
 ![Lighthouse](assets/documentation/lighthouse-check-short.webp)
 
@@ -129,6 +143,8 @@ Here's a step-by-step process for deploying Project on GitHub Pages:
 ## Credits
 
 "JavaScript Bible" by Danny Goodman, Michael Morrison
+
+[favicon_io](https://favicon_io)
 
 [JavaScript, HTML, CSS - W3Schools](https://www.w3schools.com/Js/)  
 
