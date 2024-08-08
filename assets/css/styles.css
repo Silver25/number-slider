@@ -6,7 +6,7 @@
 }
 
 header {   /* define top of the page */
-background-color: #209CEE;
+background-color: navy;
 text-align: center;
 padding: 20px;
 margin-bottom: 50px;
@@ -30,7 +30,7 @@ height: 100px;
 width: 300px;
 margin: 15px auto;
   font-size: 24px;
-  color: #209CEE;
+  color: navy;
 }
 
 .tile {   /* define each numbered tile in the grid */
@@ -38,7 +38,7 @@ height: 100px;
 width: 100px;
 color: white;
 border: 1px solid white;
-background: #209CEE;
+background: navy;
 position: absolute;
 box-sizing: border-box;
 font-size: 200%;
@@ -111,7 +111,7 @@ font-weight: bold;
 width: 30%;
 margin-left: 3px;
 padding: 5px;
-background-color: #209CEE;
+background-color: navy;
 color: white;
 }
 
@@ -154,7 +154,7 @@ position: fixed;
 bottom: 0;
 left: 0;
 width: 100%;
-background-color: #209CEE;
+background-color: navy;
 padding: 1rem;
 display: flex;
 align-items: center;

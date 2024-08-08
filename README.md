@@ -54,6 +54,10 @@ The interactivity of the Number Slider Puzzle lies in its engaging and hands-on 
 2. Switch button for the game difficulty
 3. Choosing tiles face between numbers, images or symbols
 
+## Colours
+
+
+
 ## Testing
 
 ### Manual Testing
@@ -93,9 +97,15 @@ Here's a step-by-step process for deploying Project on GitHub Pages:
 
 ## Credits
 
-[JavaScript Tutorial - W3Schools](https://www.w3schools.com/Js/)  
+"JavaScript Bible" by Danny Goodman, Michael Morrison
+
+[JavaScript, HTML, CSS - W3Schools](https://www.w3schools.com/Js/)  
 
 [The Modern JavaScript Tutorial](https://javascript.info/)  
+
+[JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+[Kirupa.com](https://www.kirupa.com/)  
 
 [JavaScript code snippet by Natalie Girard](https://www.codehim.com/vanilla-javascript/)  
 
@@ -107,8 +117,18 @@ Here's a step-by-step process for deploying Project on GitHub Pages:
 
 [Build a Sliding Puzzle Game](https://labex.io/courses/project-build-a-sliding-puzzle-game-with-javascript)  
 
+[How to create a counter](https://digifisk.com/counter-in-javascript/)
+
+[Create a popup window in plain javascript](https://stackoverflow.com/questions/16992163/create-a-popup-window-in-plain-javascript)  
+
+[Modal Popup (Dialog) Tutorial](https://jasonwatmore.com/post/2023/01/04/vanilla-js-css-modal-popup-dialog-tutorial-with-example)  
+
 [Free AI Paragraph Rewriter](https://ahrefs.com/writing-tools/paragraph-rewriter)
 
 [How responsive design looks across different browsers](https://ui.dev/amiresponsive)
 
-[Wireframing tool](https://wireframe.cc/)
+[Wireframing tool](https://wireframe.cc/)  
+
+[IrfanView is a freeware graphic viewer](https://www.irfanview.com/)  
+
+[Google Translate](https://translate.google.com/?hl=en&tab=TT&sl=en&tl=hr&op=translate)
