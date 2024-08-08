@@ -2,7 +2,7 @@
 
 Number slider puzzle is a classic game where user is presented with a grid of numbered tiles and an empty space. The goal is to slide the tiles around, using the empty space, to arrange them in numerical order. It's a puzzle that requires strategic thinking and planning to solve efficiently.
 
-![Project site on different screens](assets/documentation/wireframe-mockup.webp)
+![Project site on different screens](assets/documentation/responsiveness.webp)
 
 [**Live content over this link**](https://silver25.github.io/number-slider/)
 
@@ -22,7 +22,31 @@ The interactivity of the Number Slider Puzzle lies in its engaging and hands-on 
 
 ## Present Features across the Project
 
+![Wireframe of the project](assets/documentation/wireframe.webp)
 
+1. Header of the page with Title and link to reload page  
+
+![Title](assets/documentation/heding-title.webp)   
+
+2. Game board - main active part of the page with interactive elements  
+
+![Game board](assets/documentation/game-board.webp)  
+
+3. Counter for time spend playing  
+
+![Counter](assets/documentation/counter.webp)  
+
+4. Action buttons with options to affect on flow of the game   
+
+![Action Buttons](assets/documentation/action-buttons.webp)  
+
+5. Pop-up window with instructions how to play game  
+
+![Instrunctions window](assets/documentation/instructions.webp)  
+
+6. Footer of the page with social media icons  
+
+![Footer](assets/documentation/footer.webp)
 
 ## Future Features on Stand-by
 
@@ -69,5 +93,22 @@ Here's a step-by-step process for deploying Project on GitHub Pages:
 
 ## Credits
 
+[JavaScript Tutorial - W3Schools](https://www.w3schools.com/Js/)  
+
+[The Modern JavaScript Tutorial](https://javascript.info/)  
+
+[JavaScript code snippet by Natalie Girard](https://www.codehim.com/vanilla-javascript/)  
+
+[Build an 8 Puzzle Game](https://javascript.plainenglish.io/build-an-8-puzzle-game-with-pure-javascript-efe424bc252a)  
+
+[How To Make Slide Puzzle Game](https://rocoderes.com/slide-puzzle-game-in-html-css-and-javascript/)  
+
+[Sliding Image Puzzle](https://codingartistweb.com/2023/03/sliding-image-puzzle-javascript/)  
+
+[Build a Sliding Puzzle Game](https://labex.io/courses/project-build-a-sliding-puzzle-game-with-javascript)  
+
 [Free AI Paragraph Rewriter](https://ahrefs.com/writing-tools/paragraph-rewriter)
 
+[How responsive design looks across different browsers](https://ui.dev/amiresponsive)
+
+[Wireframing tool](https://wireframe.cc/)
