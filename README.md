@@ -14,10 +14,6 @@ The objective of this project is to demonstrate how static HTML pages can incorp
 The interactivity of the Number Slider Puzzle lies in its engaging and hands-on gameplay. User interact with the puzzle by clicking or tapping on the tiles adjacent to the empty space, sliding them into the gap. This movement allows user to rearrange the numbers, aiming to achieve the correct sequence.  
 **Disclaimer:** Currently, the Project is for educational purposes only and without any relation to eventual existing real-life similarities.
 
-User goals:
-
-Business goals:
-
 ### Technologies Used
 
 - HTML
@@ -25,6 +21,8 @@ Business goals:
 - JavaScript
 
 ## Present Features across the Project
+
+
 
 ## Future Features on Stand-by
 

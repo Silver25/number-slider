@@ -1,32 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Number Slider Game</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Number slider game for online fun.">
+<meta name="keywords" content="slider, sliding, numbers, game, online">
+<title>Number Slider</title>
+<link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+<link rel="manifest" href="assets/favicon_io/site.webmanifest">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-    
-    <div id="container">   <!-- Grid with game tiles-->
-        <div class="tile" data-pos="0">tile 01</div>
-        <div class="tile" data-pos="1">tile 04</div>
-        <div class="tile" data-pos="2">tile 08</div>
-        <div class="tile" data-pos="3">tile 03</div>
-        <div class="tile blank" data-pos="4"></div>
-        <div class="tile" data-pos="5">tile 05</div>
-        <div class="tile" data-pos="6">tile 02</div>
-        <div class="tile" data-pos="7">tile 06</div>
-        <div class="tile" data-pos="8">tile 07</div>
-      </div>
 
-      <div id="counter-box">
-        <div id="timer">0 seconds</div>   <!-- Timer element -->
-        <button onclick="toggleTimer()">Start Timer</button>
-        <button onclick="window.location.reload();">Refresh Page</button>
-      </div>
+    <!-- Header section of the page -->
+<header>
+	<a href="index.html"><h1>Number Slider Game</h1></a>
+</header>
 
-    <script src="assets/js/script.js"></script>
-      
+
+    <!-- Pop-up window content -->
+<div id="overlay"></div>
+<div id="instructions">
+<a href="#" onclick="closeInfo()">Close Window</a>
+<p>
+Description: <br>
+The Number Slider puzzle consists of a frame with numbered square blocks arranged randomly, leaving one block empty. The objective is to slide the blocks around by using the empty space to arrange them in numerical order.
+</p>
+<p>
+Purpose: <br>
+The game challenges your problem-solving skills and logical thinking. By rearranging the numbered tiles, you aim to achieve the desired order – from least to greatest, left to right, and top to bottom12. It’s a fun way to enhance your puzzle-solving abilities and numerical understanding!
+</p>
+</div>
+
+
+    <!-- Page body content with semantic elements -->
+<div id="container">   <!-- Grid with game tiles-->
+  <div class="tile" data-pos="0">1</div>
+  <div class="tile" data-pos="1">4</div>
+  <div class="tile" data-pos="2">8</div>
+  <div class="tile" data-pos="3">3</div>
+  <div class="tile blank" data-pos="4"></div>
+  <div class="tile" data-pos="5">5</div>
+  <div class="tile" data-pos="6">2</div>
+  <div class="tile" data-pos="7">6</div>
+  <div class="tile" data-pos="8">7</div>
+ </div>
+
+<div id="counter-box">  <!-- Timer box with buttons -->
+  <div id="timer">0 seconds</div>   <!-- Timer element -->
+  <button onClick="toggleTimer()">Start Timer</button>
+  <button onClick="window.location.reload();">Reload</button>
+  <button onClick="openInfo();">How to Play</button>
+</div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-icons">
+			<a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+
+<script src="assets/js/script.js"></script>
+
 </body>
 </html>
