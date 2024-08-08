@@ -56,7 +56,10 @@ The interactivity of the Number Slider Puzzle lies in its engaging and hands-on 
 
 ## Colours
 
-Use the basic two colours to achieve simplicity of design and good contrast for accessibility.
+Use the basic two colours to achieve simplicity of design and good contrast for accessibility.  
+Navy and White  
+
+![Colour Palette](assets/documentation/colour-palette.webp) 
 
 ## Testing
 
