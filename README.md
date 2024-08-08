@@ -62,7 +62,38 @@ The interactivity of the Number Slider Puzzle lies in its engaging and hands-on 
 
 ### Manual Testing
 
+Manually testing a website is pretty simple. You just open a web page or app in a set environment, go through a list of specific test scenarios, and jot down the results in a spreadsheet. This basic method is often the first step software teams take when they focus on quality assurance.  
+
+The testing process was consistently carried out while the website was being developed.
+
+Browsers used for cross-browser compatibility and responsiveness:
+- Chrome as the primary development tool
+- Edge (in the Dark mode), Opera, Brave and Iron
+
+Devices used for testing purposes:
+- desktop devices with Windows 10 and 11 OS were used, from 11" to 15" screen size
+- tablet devices were unavailable, option with browser Dev Tools applied
+- mobile devices were Nokia X10 and Samsung Galaxy A10
+
 ### Validator Testing
+
+W3C HTML Validator: https://validator.w3.org/  
+
+![HTML Validator](assets/documentation/html-checker.webp)  
+
+W3C CSS Validator: https://jigsaw.w3.org/css-validator  
+
+![CSS Validator](assets/documentation/css-checker.webp)  
+
+PageSpeed Insights (PSI): https://pagespeed.web.dev/  
+
+![PageSpeed](assets/documentation/pagespeed-mobile.webp)  
+
+![PageSpeed](assets/documentation/pagespeed-desktop.webp)  
+
+Lighthouse in Chrome DevTools  
+
+![Lighthouse](assets/documentation/lighthouse-check-short.webp)
 
 ## Deployment
 

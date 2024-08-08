@@ -37,44 +37,44 @@ board.forEach(tile => {
 // first part of the timer
 let counter = 1;   // set timer on the beginning
 
-        let sec = 0;
-        let myInterval;   // variable to hold the interval ID
-        let isTimerRunning = false;   // flag to track timer state
+let sec = 0;
+let myInterval;   // variable to hold the interval ID
+let isTimerRunning = false;   // flag to track timer state
 
-        function pad(val) {   // display single-digit values with a leading zero
-            return val > 9 ? val : "0" + val;
-        }
+function pad(val) {   // display single-digit values with a leading zero
+return val > 9 ? val : "0" + val;
+}
 
-        function counting() {   // display values in relevant element
-            document.getElementById('timer').textContent = 'Timer: ' + pad(sec) + ' seconds';
-            sec++;
-        }
+function counting() {   // display values in relevant element
+document.getElementById('timer').textContent = 'Timer: ' + pad(sec) + ' seconds';
+sec++;
+}
 
-        function toggleTimer() {   // enable using one button for two actions
-            if (isTimerRunning) {
-                clearInterval(myInterval);   // stop the timer
-                document.querySelector('button').textContent = 'Start Timer';
-            } else {
-                myInterval = setInterval(counting, 1000);   // start the timer
-                document.querySelector('button').textContent = 'Stop Timer';
-            }
-            isTimerRunning = !isTimerRunning;   // toggle the flag
-        }
-		
+function toggleTimer() {   // enable using one button for two actions
+if (isTimerRunning) {
+    clearInterval(myInterval);   // stop the timer
+    document.querySelector('button').textContent = 'Start Timer';
+} else {
+    myInterval = setInterval(counting, 1000);   // start the timer
+    document.querySelector('button').textContent = 'Stop Timer';
+}
+isTimerRunning = !isTimerRunning;   // toggle the flag
+}
 
-            function openInfo() {   // opens-show pop-up window with Instructions
-                document.getElementById(
-                    "overlay"
-                ).style.display = "block";
-                document.getElementById(
-                    "instructions"
-                ).style.display = "block";
-            }
-            function closeInfo() {   // closes pop-up window with Instructions
-                document.getElementById(
-                    "overlay"
-                ).style.display = "none";
-                document.getElementById(
-                    "instructions"
-                ).style.display = "none";
-            }
+
+function openInfo() {   // opens-show pop-up window with Instructions
+    document.getElementById(
+        "overlay"
+    ).style.display = "block";
+    document.getElementById(
+        "instructions"
+    ).style.display = "block";
+}
+function closeInfo() {   // closes pop-up window with Instructions
+    document.getElementById(
+        "overlay"
+    ).style.display = "none";
+    document.getElementById(
+        "instructions"
+    ).style.display = "none";
+}
